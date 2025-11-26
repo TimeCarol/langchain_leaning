@@ -1,0 +1,15 @@
+[project]
+name = "langchain-leaning"
+version = "0.1.0"
+description = "langchain leaning"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.3.27",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+]
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple"
+default = true
