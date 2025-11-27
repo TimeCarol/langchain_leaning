@@ -3,12 +3,14 @@ name = "langchain-leaning"
 version = "0.1.0"
 description = "langchain leaning"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
-    "langchain>=0.3.27",
-    "langchain-openai>=1.1.0",
-    "python-dotenv>=1.2.1",
-    "requests>=2.32.5",
+    "langchain>=1.0.0",
+    "langchain-openai>=1.0.0",
+    "langgraph>=1.0.0",
+    "langchain-community>=0.4.0",
+    "jupyter>=1.0.0",
+    "mysql-connector-python>=9.5.0",
 ]
 
 [[tool.uv.index]]
